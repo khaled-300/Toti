@@ -1,77 +1,109 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='styles-css/index.css'>
 </head>
 
-
 <body>
-    <header>
-        <h2>Cidades do Brasil</h2>
-    </header>
+    <div class="grid">
 
-    <section>
-        <nav>
+        <div class="header">
+            <div id="menu-nav">
+                <div id="navigation-bar">
+                    <ul class="navbar">
+                        <li class="active"><a href="/"><i class="fa fa-home"></i><span>Home</span></a></li>
+                        <li><a href="/brasilia.html"><i class="fa fa-handshake"></i><span>Brasília</span></a></li>
+                        <li><a href="/rio-de-janeiro.html"><i></i><span>Rio de janeiro</span></a>
+                        </li>
+                        <li><a href="/"><i class="fa fa-book"></i><span>Sobre</span></a></li>
+                        <li><a href="/"><i class="fa fa-rss"></i> <span>Conacte-nos</span></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="links">
+            <h2>List of cities</h2>
             <ul>
-                <li><a href="rio-de-janeiro.html">Rio De Janeiro</a></li>
-                <li><a href="brasilia.html">brasília</a></li>
+                <li><a href="">Photos da Cidade</a></li>
+                <li><a href="">Bairros do Rio de Janeiro</a></li>
+                <li><a href="">Praias Do Rio De Janeiro</a></li>
+                <li><a href="">Mapa Do Rio De Janeiro</a></li>
             </ul>
-        </nav>
 
-        <article>
-            <h1>Rio De Janeiro</h1>
-            <p> O Rio de Janeiro tem várias pequenas histórias, que somam um leque de informações, que quando postas em
+        </div>
+        <div class="maincontent">
+            <h1>Rio de janeiro</h1>
+            <p> O Rio de Janeiro tem várias pequenas histórias, que somam um leque de informações, que quando postas
+                em
                 uma
-                linha temporal, se tem uma visão geral das seguências dos acontecimentos da cidade.</p>
-            <p>Essa visão dá a
+                linha temporal, se tem uma visão geral das seguências dos acontecimentos da cidade.
+                Essa visão dá a
                 pespectiva
-                evolutiva da sociedade fluminense , até os dias atuais, trazendo a possibilidade de vislumbrar o futuro
+                evolutiva da sociedade fluminense , até os dias atuais, trazendo a possibilidade de vislumbrar o
+                futuro
                 de uma
-                maneira racional e mais ampla.</p>
-        </article>
-    </section>
+                maneira racional e mais ampla.
+                <img class="photoRio" src="images/rio-de-janiero.jpg" alt="Rio-de-janeiro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptatum minima. Eligendi quibusdam
+                totam culpa eius accusamus sit numquam molestiae modi aperiam, assumenda odit ducimus consequuntur
+                suscipit, commodi velit. Id hic rerum nisi tenetur provident dicta saepe fugiat temporibus, architecto
+                non earum possimus tempora sequi maiores enim dolore quis. Voluptate.
+            </p>
+            <object id="video" data="https://www.youtube.com/embed/rPJ0q1j8n6U?" width="560" height="315"></object>
+        </div>
+        <div class="footer">
+            <ul class="social-icons">
+                <p>Find us on social media</p>
+                <li>
+                    <a href="https://www.facebook.com/user" target='blank'>
+                        <img src="images/social-media/facebook.svg" alt="Facebook" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/user" target='blank'>
+                        <img src="images/social-media/twitter.svg" alt="Twitter" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/user" target='blank'>
+                        <img src="images/social-media/instagram.svg" alt="Instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/+user" target='blank'>
+                        <img src="images/social-media/whatsapp.svg" alt="Whatsapp" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/user" target='blank'>
+                        <img src="images/social-media/youtube.svg" alt="YouTube" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/user" target='blank'>
+                        <img src="images/social-media/linkedin.svg" alt="Linkedin" />
+                    </a>
+                </li>
+            </ul>
+            <div class="copy">
+                <p>&copy; 2019 Khaled Al Jadaan<p>
+            </div>
+        </div>
+    </div>
 
-    <footer>
-        <ul class="social-icons">
-            <p>Find us on social media</p>
-            <li>
-                <a href="https://www.facebook.com/user" target='blank'>
-                    <img src="images/social-media/facebook.svg" alt="Facebook" />
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/user" target='blank'>
-                    <img src="images/social-media/twitter.svg" alt="Twitter" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/user" target='blank'>
-                    <img src="images/social-media/instagram.svg" alt="Instagram" />
-                </a>
-            </li>
-            <li>
-                <a href="https://plus.google.com/+user" target='blank'>
-                    <img src="images/social-media/whatsapp.svg" alt="Whatsapp" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/user" target='blank'>
-                    <img src="images/social-media/youtube.svg" alt="YouTube" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/user" target='blank'>
-                    <img src="images/social-media/linkedin.svg" alt="Linkedin" />
-                </a>
-            </li>
-        </ul>
-        <div class="copy">
-            <p>&copy; 2019 Khaled Al Jadaan<p>
-    </footer>
+
 
 </body>
 
