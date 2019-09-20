@@ -120,7 +120,7 @@ li {
 .links h2 {
     text-align: center;
     padding: 15px;
-    color: brown;
+    color: rgb(240, 25, 25);
 }
 
 .links ul {
@@ -131,7 +131,7 @@ li {
 
 .links li {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(100, 76, 76);
+    background-color: rgb(201, 198, 198);
     font-size: 16pt;
     border-bottom: 2px solid #ccc;
     padding: 50px;
