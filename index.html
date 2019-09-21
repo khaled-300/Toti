@@ -16,33 +16,30 @@
     <div class="grid">
 
         <div class="header">
-            <div id="menu-nav">
-                <div id="navigation-bar">
-                    <ul class="navbar">
-                        <li class="active"><a href="/"><i class="fa fa-home"></i><span>Início</span></a></li>
-                        <li><a href="/brasilia.html"><i class="fa fa-handshake"></i><span>Brasília</span></a></li>
-                        <li><a href="/rio-de-janeiro.html"><i></i><span>Rio de janeiro</span></a>
-                        </li>
-                        <li><a href="/"><i class="fa fa-book"></i><span>Sobre</span></a></li>
-                        <li><a href="/"><i class="fa fa-rss"></i> <span>Conacte-nos</span></a></li>
-                    </ul>
-                </div>
-
-            </div>
-
-
-
+            <nav class="navbar" id="mynavbar">
+                <ul>
+                    <li class="active"><a href="/"><i class="fa fa-home"></i><span>Início</span></a></li>
+                    <li><a href="/brasilia.html"><i class="fa fa-handshake"></i><span>Brasília</span></a></li>
+                    <li><a href="/rio-de-janeiro.html"><i></i><span>Rio de janeiro</span></a></li>
+                    <li><a href="/"><i class="fa fa-book"></i><span>Sobre</span></a></li>
+                    <li><a href="/"><i class="fa fa-rss"></i> <span>Conacte-nos</span></a></li>
+                    <li class="icon"><a href="javascript:void(0);" onclick="toggle()"><i class="fa fa-bars"></i>
+                    </li>
+                </ul>
+            </nav>
         </div>
+
         <div class="links">
-            <h2>Lista de cidades</h2>
-            <ul>
-                <li><a href="">Photos da Cidade</a></li>
-                <li><a href="">Bairros do Rio de Janeiro</a></li>
-                <li><a href="">Praias Do Rio De Janeiro</a></li>
-                <li><a href="">Mapa Do Rio De Janeiro</a></li>
-            </ul>
-
+            <div class="sidebar">
+                <ul>
+                    <li><a href="">Photos da Cidade</a></li>
+                    <li><a href="">Bairros do Rio de Janeiro</a></li>
+                    <li><a href="">Praias Do Rio De Janeiro</a></li>
+                    <li><a href="">Mapa Do Rio De Janeiro</a></li>
+                </ul>
+            </div>
         </div>
+
         <div class="maincontent">
             <h1>Rio de janeiro</h1>
             <p> O Rio de Janeiro tem várias pequenas histórias, que somam um leque de informações, que quando postas
@@ -61,7 +58,7 @@
                 suscipit, commodi velit. Id hic rerum nisi tenetur provident dicta saepe fugiat temporibus, architecto
                 non earum possimus tempora sequi maiores enim dolore quis. Voluptate.
             </p>
-            <object id="video" data="https://www.youtube.com/embed/rPJ0q1j8n6U?" width="560" height="315"></object>
+            <object class="video" data="https://www.youtube.com/embed/rPJ0q1j8n6U?" width="560" height="315"></object>
         </div>
         <div class="footer">
             <ul class="social-icons">
